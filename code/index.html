@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Racer - Christopher Chan</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+<!--   <h1>STAR WARS</h1>
+ -->
+ <audio id="my_audio" src="music/loadMusic.mp3" loop="loop"></audio>
+
+</header>
+
+  <section id='container'>
+
+      <p id="topMessage">The Light Side: Use 'L' to move forward <br>
+          The Dark Side: Use 'D' to move forward
+      </p>
+
+       <div id = 'track'>
+
+            <div id="racer1">
+            <img src="images/xwing.jpg">
+            </div>
+
+            <div id="racer2">
+            <img src="images/darthfighter.jpg">
+            </div>
+        </div> 
+           
+      <button onclick="startGame()">Begin Race!</button> 
+         <!--     <div>
+              <img id="finish" src="images/finish.jpg">
+            </div> -->
+  </section>
+
+  <script type="text/javascript" src ="app.js"></script>
+</body>
+</html>

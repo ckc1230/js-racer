@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+h1 {
+  color: gold;
+  background-color: black;
+  font-size: 100px;
+  width: 100%
+  left: 50%;
+  margin: 0;
+}
+
+p {
+  color: gold;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 35%;
+  text-shadow: 0 0 10px red;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  background: url(images/yavin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+#finish {
+  width: 80px;
+  margin-left: 1005px; 
+  top: 40%; 
+}
+
+#track {
+  width: 1000px;
+  height: 300px;
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  top: 40%;
+  left: 40px;
+}
+
+#racer1 {
+  width: 80px;
+  height: 80px;
+  margin-left: 0px;
+  background: black;
+  border: 3px solid lightblue;
+}
+
+#racer2 {
+  width: 80px;
+  height: 80px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  background: black;
+  border: 3px solid red;
+}
+
+button {
+  margin-left: 48%;
+  width: 120px;
+  height: 50px;
+  padding: 12px;
+  border: 5px solid gold;
+  background-color: rgba(0,0,0,0.5);
+  color: gold;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 9px;
+}
+
+img {
+  height: 100%; 
+  width: 100%; 
+  object-fit: contain;
+}
